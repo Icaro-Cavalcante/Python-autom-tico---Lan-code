@@ -1,0 +1,6 @@
+x = int(input("Digite o valor do primeiro número: "))
+y = int(input("Digite o valor do seundo número: "))
+print(f"x + y = {x+y}")
+print(f"x - y = {x-y}")
+print(f"x * y = {x*y}")
+print(f"x / y = {x/y}")
