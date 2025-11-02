@@ -37,4 +37,4 @@ dados3.touch()
 # Imprima apenas o nome do arquivo (sem o caminho completo).
 
 for file in entrada.glob("*.txt"):
-    print(file.name)
+    print(file.stem)
